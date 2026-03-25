@@ -47,3 +47,49 @@ A **feedforward neural network** with **ReLU** and **Softmax** activation functi
 ## Process Flow of the System
 ```text
 Input Image → Data Preprocessing → Neural Network Training → Model Testing → Digit Prediction → Output Display
+```
+# Dataset
+
+## Source of Data
+The dataset used in this project is the **MNIST Handwritten Digit Dataset**, which is a standard benchmark dataset for image classification and deep learning projects.
+
+The dataset used in this project contains **grayscale images of handwritten digits from 0 to 9**.
+
+---
+
+## Number of Records / Samples
+The **MNIST dataset** contains:
+
+- **70,000 total images**
+- **60,000 training images**
+- **10,000 testing images**
+
+Each image represents a handwritten digit from **0 to 9**.
+
+---
+
+## Features or Attributes (Columns)
+The main features in the dataset are the **pixel values** of the images.
+
+- Each image is of size **28 × 28 pixels**
+- Total number of input features = **784 pixels**
+- Each image has a corresponding **label from 0 to 9**
+
+Each handwritten digit image contains **784 pixel values (28 × 28 image size)**, and each image is associated with one output label representing the digit class from **0 to 9**.
+
+---
+
+## Training and Testing Data Split
+The dataset is already divided into:
+
+- **Training Data:** 60,000 images
+- **Testing Data:** 10,000 images
+
+The training set is used to **train the neural network model**, and the testing set is used to **evaluate its performance**.
+
+---
+
+## Data Format or Type
+The dataset is in **image format represented as numerical arrays**.
+
+The dataset consists of **grayscale handwritten digit images** stored as numerical pixel values. Each image is represented as a **28 × 28 matrix** and processed as numerical data in the neural network model.
