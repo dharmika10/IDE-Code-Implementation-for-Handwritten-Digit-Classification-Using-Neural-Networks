@@ -1,5 +1,4 @@
 # IDE-Code-Implementation-for-Handwritten-Digit-Classification-Using-Neural-Networks
-Markdown
 
 # Handwritten Digit Classification Using Neural Networks
 
